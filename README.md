@@ -19,7 +19,6 @@ Summary of the sub-directories and files found within this project.
 
 Description on how to use the code provided to validate the experimental results found in the paper
 
-
 ## I. Requirements
 Only a simple environment is required to perform the gridworld experiments.
 
@@ -32,26 +31,25 @@ We recommend using pacakge manager [pip](https://pip.pypa.io/en/stable/) as well
 **pip:**
 - tqdm
 - matplotlib
+- pandas
 
 ## II. Contents
 
-**bash_scripts/** - The bash script used to run all 121 dataset settings, with 100 seeds.
+**bash_scripts/** - The bash script used to run the Gridworld experiment. Uses 121 dataset settings, with 100 random initializations for each.
 
 **run_mix.py** script used for running IRLEED and MaxEnt IRL. 
 
-**results/** - Where results are stored. Note that the hopper results are added for reference, while the gridworld results can be generated with the corresponding bash script. 
+**results/** - Where results are stored. Note that both the Gridoworld and Hopper results are added for reference, where the gridworld results can be generated with the corresponding bash script. 
 
 **analyze.ipynb** - Main analysis file used to generate the figures used in the paper. 
 
-**figures/** - Final storage place of figures, this path should be set accordingly in **analyze.ipynb**
+**figures/** - Final storage place of figures.
 
 **src/** - Main implementation of MaxEnt IRL as well as IRLEED. 
 
 - **src/irl_maxent** contains a basic implementation of maximum entropy IRL that is used for reference. Only the plotting, gridworld, and stochastic gradient ascent implementations are used directly from this folder. 
 
 - **src/mix_irl** contains the implementation of IRLEED and maximum entroy IRL. Supporting files are included here.
-
-
 
 Note that the main IRLEED implementation can be found in the 'irleed' class within the file **src/mix_irl/irleed.py**. This class is then used within the script **src/run_mix.py** to perform the experiment. The remaining files support this implementation. 
 
