@@ -47,7 +47,7 @@ We recommend using pacakge manager [pip](https://pip.pypa.io/en/stable/) as well
 
 **src/** - Main implementation of MaxEnt IRL as well as IRLEED. 
 
-- **src/irl_maxent** contains a basic implementation of maximum entropy IRL that is used for reference. Only the plotting, gridworld, and stochastic gradient ascent implementations are used directly from this folder. 
+- **src/irl_maxent** contains a basic implementation of maximum entropy IRL that is used for reference. Only the plotting, gridworld, and stochastic gradient ascent implementations are used directly from this folder. The original code was forked from [this repository](https://github.com/qzed/irl-maxent), and the corresponding License has been attached. 
 
 - **src/mix_irl** contains the implementation of IRLEED and maximum entroy IRL. Supporting files are included here.
 
