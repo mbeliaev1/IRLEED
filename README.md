@@ -6,7 +6,9 @@ This directory is supplementary material for our work presented at the Thirty-Ni
 All relevant citations for methods used are found in the paper's list of references. Note that this directory contains the implementation for the Gridworld experiments performed, as well as the code and data used to generate all figures in the report. For additional implementation details, please refer to the Appendix.
 
 [I. Requirements](#i.-requirements)
+
 [II. Instructions](#iii.-insctructions)
+
 [III. Contents](#ii.-contents)
 
 ## I. Requirements
