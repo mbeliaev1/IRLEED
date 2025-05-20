@@ -7,9 +7,9 @@ All relevant citations for methods used are found in the paper's list of referen
 
 [I. Requirements](#i.-requirements)
 
-[II. Instructions](#iii.-insctructions)
+[II. Instructions](#ii.-insctructions)
 
-[III. Contents](#ii.-contents)
+[III. Contents](#iiI.-contents)
 
 ## I. Requirements
 We recommend using pacakge manager [pip](https://pip.pypa.io/en/stable/) as well as [conda](https://www.anaconda.com/products/individual) to install the relative packages:
